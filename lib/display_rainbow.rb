@@ -1,7 +1,8 @@
 # Write your #display_rainbow method here
 
 def display_rainbow(colors)
-  colors.map {|c| "#{c[0].upcase}: #{c}"}.join(", ") + "\n"
+  string = colors.map {|c| "#{c[0].upcase}: #{c}"}.join(", ") 
+  string =+ "\n"
 end
 
 
