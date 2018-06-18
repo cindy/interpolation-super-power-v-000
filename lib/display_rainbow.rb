@@ -5,4 +5,3 @@ def display_rainbow(colors)
 end
 
 
-print display_rainbow(['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])
