@@ -2,6 +2,6 @@
 
 def display_rainbow(colors)
   for i in colors do
-    puts "#{i[0]}: #{i}"
+    puts "#{i[0].uppercase}: #{i}"
   end
 end
